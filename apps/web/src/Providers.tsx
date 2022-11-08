@@ -1,5 +1,6 @@
 import { ModalProvider, light, dark, UIKitProvider } from '@pancakeswap/uikit'
 import { Provider } from 'react-redux'
+
 import { SWRConfig } from 'swr'
 import { LanguageProvider } from '@pancakeswap/localization'
 import { fetchStatusMiddleware } from 'hooks/useSWRContract'
